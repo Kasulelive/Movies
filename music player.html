@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes quiet {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes normal {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes loud {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(1.2);
+  }
+}
+body{
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  margin: 0;padding: 0;
+  align-items: center;
+  height: 100vh;
+}
+
+.boxContainer{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  --boxSize: 30px;
+  --gutter: 8px;
+  width: calc((var(--boxSize) + var(--gutter)) * 5);
+}
+
+.box{
+  transform: scaleY(.4);
+  height: 100%;
+  width: var(--boxSize);
+  background: #03f8f0;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 50px;
+}
+
+.box1{
+  animation-name: quiet;
+}
+
+.box2{
+  animation-name: normal;
+}
+
+.box3{
+  animation-name: quiet;
+}
+
+.box4{
+  animation-name: loud;
+}
+
+.box5{
+  animation-name: quiet;
+}
+.whole{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+</style>
+<body>
+  <div class="whole">
+    <h1 style="color: chartreuse;">
+        BAE music PLAYER
+    </h1><p>
+
+    </p>
+    <p>
+
+    </p>
+    <div class="boxContainer">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+       
+      </div>
+
+      <h1 style="color: blue;">
+        <p>
+
+        </p>
+        <br>BAE music PLAYER</br>
+    </h1>
+    <p>
+        
+    </p>
+    <h2 style="color: blanchedalmond;"> <marquee>you Know Me Sitya, you Know Me Sitya Danger- Alien skin  2:56:30</marquee></h2>
+    </div>
+</body>
+</html>

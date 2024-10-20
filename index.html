@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title><style></style>
+  <link rel="stylesheet" href="style.css"><style>
+  *{
+    Padding: 0;
+    Margin: 0;
+    Box-sizing: border-box;
+    Font-family: sans-serif;
+}
+.hero{
+    Display: flex;
+    Position: relative;
+    Justify-content: center;
+    Height: 400px;
+    /*Background*/
+    Align-items: end;
+    /* background-position: center; */
+    Background-color: rgb(45, 28, 92);
+    Color: white;
+    Font-size: 30px;
+    Margin-top: 15px;
+    Margin-bottom: 15px;
+}
+.hero h1{
+   
+    Text-align: center;
+    Position: absolute;
+    Top: 45px;
+    Margin: auto;
+    
+}
+.hero button{
+    Position: absolute;
+    Bottom: 25px;
+    Font-size: 25px;
+    Padding: 20px;
+    Border: 5px  solid white;
+    Border-radius: 16px;
+    Background-color: hwb(0 0% 100%);
+    Color: white;
+}
+.hero button:hover{
+    Color: rgb(231, 209, 209);
+    Border: 5px  solid rgb(255, 81, 0);
+    
+}
+.hero h1:hover{
+    Transform: scale(1.3);
+    Transition: all;
+    color: aqua;
+}
+Nav{
+    Height: 90px;
+    Background: #001011;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    
+}
+Nav h1{
+    Flex: 1;
+    Margin-left: 25px;
+    color: aliceblue;
+}
+Nav h1:hover{
+    Color:rgb(54, 17, 241);
+    Font-weight: 900;
+    Font-size: 25px;
+    Text-transform: uppercase;
+}
+Nav ul{
+    Display: flex;
+}
+Nav ul li{
+    Margin: 25px;
+    List-style: none;
+}
+Nav ul li a{
+    Color: rgb(255, 255, 255);
+    Text-decoration: none;
+    Font-size: 25px;
+    Text-transform: uppercase;
+    Margin-right: 25px;
+}
+Nav ul li a:hover{
+    Color: blueviolet;
+    Border-bottom: 3px solid blueviolet;
+}
+.active{
+    Color: rgb(255, 255, 255);
+    Border-bottom: 3px solid rgb(255, 0, 0);
+}
+.movies {
+    Display: grid;
+    Grid-template-columns: repeat(2, 1fr);
+    Gap: 115px;
+    Margin-left: 27px;
+}
+
+.movie {
+    Background: #e3f6fd;
+    Padding: 25px;
+    Border-radius: 8px;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    Gap: 80px;
+    
+}
+
+.movie img {
+    Width: 100%;
+    Height: auto;
+    Border-radius: 4px;
+}
+
+.movie h2 {
+    Font-size: 16px;
+    Margin: 10px 0;
+    Color: #444;
+}
+.whole{
+    Margin-left: 100px;
+    Margin-right: 100px;
+}
+.heads{
+    Text-align: center;
+    
+    
+    Margin: auto;
+}
+.first{
+    gap: 40px;
+}
+.content{
+    Margin-top: 15px;
+    Margin-bottom: 180px;
+    margin-left: 60px;
+    margin-right: 40px;
+    text-align: center;
+}
+.logo{
+    margin-left: 10px;
+}
+</style>
+</head>
+<body bgcolor="#f0f0f0">
+    <div class="whole">
+    <div class="box">
+    <div class="nav">
+        
+        <nav>
+
+            <img src="faveb.png" style="height: 50px; width: 50px; border-radius: 40%;" class="logo"> 
+    <h1>WORLD OF ARTIFICIAL INTELLIGENCE</h1>
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="music player.html">Music</a></li>
+        <li><a href="calculator.html">calculator</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div class="hero">
+    <h1> What is Artificial intelligence ?</h1>
+    <p class="content">Your one stop of Harnessing the power of artificial intelligence Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Soluta adipisci ducimus tenetur, aperiam maiores voluptates in dicta,
+         Veniam commodi aut dolore eum.
+        Repellat sunt sequi blanditiis molestiae placeat earum corporis.</p>
+    <button>ContactUsToday</button>
+</div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Soluta adipisci ducimus tenetur, aperiam maiores voluptates in dicta,
+      Veniam commodi aut dolore eum.
+     Repellat sunt sequi blanditiis molestiae placeat earum corporis. 
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     Laborum reprehenderit rerum magnam exercitationem magni iste 
+     Eius nulla tempora nostrum facere
+      Quam veritatis odio repudiandae perspiciatis quasi,
+       Dolores consequatur ipsa iusto.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     Laborum reprehenderit rerum magnam exercitationem magni iste 
+     Eius nulla tempora nostrum facere
+      Quam veritatis odio repudiandae perspiciatis quasi,
+       Dolores consequatur ipsa iusto.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+     Laborum reprehenderit rerum magnam exercitationem magni iste 
+     Eius nulla tempora nostrum facere
+      Quam veritatis odio repudiandae perspiciatis quasi,
+       Dolores consequatur ipsa iusto.
+    </p>
+       <br>
+
+<img src="img-11.png" style="height: 1000px; width: 1710px; border-radius: 20px;">
+<br>
+<br>
+<h2 class="heads">
+    IMPACT OF ARTIFICIAL INTELLIGENCE IN THE EDUCATION SECTOR
+</h2>
+<br>
+<div class="first" style="display: inline-block;">
+    <img src="iC8dTt9NFgtJo3uiYLE-253D-300x300.jpg" style="height: 264px;width: 264px; border-bottom-left-radius: 20px; border-top-left-radius: 20px;">
+    <img src="img-11.png" style="height: 264px;width: 264px; ">
+    <img src="img-b2peANL8DJaYJEmQVZacCyss-300x300.png" style="height: 264px;width: 264px; ">
+    <img src="img-r7bnO7Pu7uH0QXd2LsGCL1lK-300x300.png" style="height: 264px;width: 264px; ">
+    <img src="img-RsG9tV9EBmib7oSwO3Ack94N-300x300.png" style="height: 264px;width: 264px; ">
+    <img src="img-SdqRUX1Lrkxxt4MXKB6lKpP2-300x300.png" style="height: 264px;width: 264px; border-bottom-right-radius: 20px; border-top-right-radius: 20px; ">
+</div>
+<br>
+<br>
+<h2 class="heads">Artificial intelligence in other sectors</h2>
+<br>
+<br>
+<div class="movies" style="display: flex;">
+<div class="movie">
+<img src="Screenshot 2024-06-21 144246.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+<h2>1. EDDY KENZO</h2>
+<button>Play now</button>
+</div>
+<div class="movie">
+    <img src="img-RsG9tV9EBmib7oSwO3Ack94N-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+    <h2>1. SHEEBAH</h2>
+    <button>Play Now</button>
+    </div>
+    <div class="movie">
+        <img src="img-r7bnO7Pu7uH0QXd2LsGCL1lK-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+        <h2>1. SPICE DIANA</h2>
+        <button>Play Now</button>
+        </div>
+        <div class="movie">
+            <img src="iC8dTt9NFgtJo3uiYLE-253D-300x300.jpg" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+            <h2>1. LYDIA JAZMINE</h2>
+            <button>Play Now</button>
+            </div>
+            <div class="movie">
+                <img src="refugeeScreenshot 2024.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                <h2>1. ACIDIC VOKOZI</h2>
+                <button>Play Now</button>
+                </div>
+                <div class="movie">
+                    <img src="Screenshot 2024-06-21 144125.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                    <h2>1. GRAVITY</h2>
+                    <button>Play Now</button>
+                    </div>
+
+       
+                        
+</div>
+<div class="movie" style="display: flex;">
+    <div class="movie">
+        <img src="img-RsG9tV9EBmib7oSwO3Ack94N-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+        <h2>1. NAVIO</h2>
+        <button>Play Now</button>
+        </div>
+        <div class="movie">
+            <img src="iC8dTt9NFgtJo3uiYLE-253D-300x300.jpg" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+            <h2>1. distressed cake</h2>
+            <button>Play Now</button>
+            </div>
+            <div class="movie">
+                <img src="Screenshot 2024-06-21 144125.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                <h2>1. Lorry pop</h2>
+                <button>Play Now</button>
+                </div>
+                <div class="movie">
+                    <img src="img-b2peANL8DJaYJEmQVZacCyss-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                    <h2>1. cap cake</h2>
+                    <button>Play Now</button>
+                    </div>
+                <div class="movie">
+                    <img src="img-SdqRUX1Lrkxxt4MXKB6lKpP2-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                    <h2>1. banana cake</h2>
+                    <button>Play Now</button>
+                    </div>
+                    <div class="movie">
+                        <img src="img-r7bnO7Pu7uH0QXd2LsGCL1lK-300x300.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                        <h2>1. chocolates</h2>
+                        <button>Play Now</button>
+                        </div>
+                        <div class="movie">
+                            <img src="Screenshot 2024-06-21 144246.png" alt="Oppenheimer" style="height: 115px;width: 115px; "">
+                            <h2>1. round cake</h2>
+                            <button>Play Now</button>
+                            </div>
+                
+</div>
+</div>
+</div>
+</div>
+<br>
+<footer class="whole" style="text-align: center;">
+    <h2>
+        REACH OUT TO US THROUGH
+    </h2>
+    <br>
+    Next to Total Hoima road<br>
+    0744872536<br>
+    futureofai@gmail.com
+    <br>
+    <div class="footer-social">
+<a href="#"><i class="fa fa-whatsapp">Whatsap</i></a>
+<a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+<a href="#"><i class="fa fa-twitter"></i>Twitter X</a>
+<a href="#"><i class="fa fa-Telegram"></i>Telegram</a>
+    </div>
+    
+    <h1>Click on Our News Letter To join us today </h1>
+    <br>
+    <div>
+        <label for="email">Subscribe to our News letter by signing in</label>
+        <br>
+         <br> <input id="email" type="email" placeholder="Enter Email">
+        <br>
+        <input id="username" type="username" placeholder="username">
+        <br>
+        <input id ="contact" type="contact" placeholder="contact">
+        <br>
+        <input id ="password" type="password" placeholder="password">
+        <br>
+        <input id ="password" type="password" placeholder="confirm password">
+        <br>
+        <br>
+        <button>SUBMIT</button><br>
+        <br>
+        &copy;Future of AI
+    </div>
+    <br>
+</footer>
+</div>
+</body>
+</html>
+
